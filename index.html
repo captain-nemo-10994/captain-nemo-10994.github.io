@@ -495,7 +495,28 @@ li a:hover {
 <img src="cross.png" alt="A simple cross" width=300; height=300; class="center" style="top: 360px; left:100px; filter:invert(100%);">
 
 
-<pre class="text"; style="transform:translate(590px,230px); width:675px; left:50px; font-weight:normal; font-size:24px;">
+<style scoped>
+.on-the-fly-behavior {
+    display: block;
+    position: absolute;
+    font-size:24px;
+    font-weight: bold; 
+    font-family:'Papyrus','Times New Roman', 'Serif';
+    width:675px; 
+}
+@media (max-width: 730px) {
+    .on-the-fly-behavior {
+    display: block;
+    position: absolute;
+    font-size:24px;
+    font-weight: bold; 
+    font-family:'Papyrus','Times New Roman', 'Serif';
+    width:600px;
+    }
+}
+</style>
+
+<pre class="on-the-fly-behavior"; style="transform:translate(590px,230px); width:675px; left:50px; font-weight:normal; font-size:24px;">
 Do not spare yourself from heartfelt prayer even when you
 have spent the whole day in hard work. Do not indulge in
 laziness when you pray; tell God everything that is in 
