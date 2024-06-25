@@ -14,7 +14,8 @@ ul {
   overflow: hidden;
   background-color: gold;
   position: absolute;
-  width:1900px;
+  width:auto;
+  
 }
 
 li {
@@ -72,25 +73,26 @@ li a:hover {
   font-family:'Papyrus','Times New Roman', 'Serif';
 }
 
-@media only screen and (max-width: 730px) {
-  .text {
-    display:block;
-    position: absolute;
-    font-size:18px;
-    font-weight:bold;
-    width:400px;
-    background-color:red;
-  }
+#example1 {
+  border: 2px solid black;
+  padding: 25px;
+  max-height:80px;
+  object-fit:scale-down;
+  background: url("border.png");
+  background-repeat: repeat;
+  background-size:95px;
 }
-
 
 </style>
 </head>
 
-<h1 style="text-align:center; width:1900px; font-family:'Papyrus','Fantasy'; background-color:gold">✞ Daily Prayers ✞</h1>
+<h1 style="text-align:center; width:100%; font-family:'Papyrus','Fantasy'; background-color:gold">✞ Daily Prayers ✞</h1>
 
 
-<div class="rectangle" style="transform:translate(0,-5px); width:1900px; height:80px; background-color:antiquewhite;"></div>
+<div id="example1" >
+</div>
+
+<!-- <div class="rectangle" style="transform:translate(0,-5px); width:1900px; height:80px; background-color:antiquewhite;"></div>
 <div class="rectangle" style="transform:translate(0,0); width:1900px; background-color:maroon;"></div>
 
 
@@ -472,7 +474,7 @@ li a:hover {
 <div class="circle" style="transform:translate(1391px,28px); background-color:darkblue; height:9px; width:12px;"></div>
 <div class="circle" style="transform:translate(1545px,28px); background-color:darkblue; height:9px; width:12px;"></div>
 <div class="circle" style="transform:translate(1699px,28px); background-color:darkblue; height:9px; width:12px;"></div>
-<div class="circle" style="transform:translate(1853px,28px); background-color:darkblue; height:9px; width:12px;"></div>
+<div class="circle" style="transform:translate(1853px,28px); background-color:darkblue; height:9px; width:12px;"></div> -->
 
 
 
@@ -502,7 +504,7 @@ li a:hover {
     font-size:24px;
     font-weight: bold; 
     font-family:'Papyrus','Times New Roman', 'Serif';
-    width:675px; 
+    width:625px; 
 }
 @media (max-width: 730px) {
     .on-the-fly-behavior {
@@ -511,13 +513,13 @@ li a:hover {
     font-size:24px;
     font-weight: bold; 
     font-family:'Papyrus','Times New Roman', 'Serif';
-    width:200px;
+    width:320px;
     background-color: red;
     }
 }
 </style>
 
-<pre class="on-the-fly-behavior"; style="transform:translate(590px,230px); left:50px; font-weight:normal; font-size:24px;">
+<p class="on-the-fly-behavior"; style="transform:translate(590px,230px); left:50px; font-weight:normal; font-size:24px;">
 Do not spare yourself from heartfelt prayer even when you
 have spent the whole day in hard work. Do not indulge in
 laziness when you pray; tell God everything that is in 
@@ -526,8 +528,10 @@ diligence, you will not fall asleep before you have wept
 over your sins. Believe that, if for the sake of bodily 
 rest you pray hurriedly, you will lose the tranquility of
 both body and soul. By what labor, sweat and tears is 
-our closeness to God achieved! 
-                   ~ St. John of Kronstadt</pre>
+our closeness to God achieved! </p>
+
+<pre class="on-the-fly-behavior"; style="transform:translate(790px,570px); left:50px; font-weight:normal; font-size:24px;">
+              ~ St. John of Kronstadt</pre>
 
 
 
